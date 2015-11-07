@@ -1,3 +1,5 @@
+Should I go back and add questions?
+
 Viewing a diff can allow me to see which line(s) were changed and what the changes were. 
 Using that, I can confirm that all changes were as desired.
 By saving versions, I can be more confident with making changes.
