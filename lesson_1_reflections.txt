@@ -1,14 +1,29 @@
 Should I go back and add questions?
 
-Viewing a diff can allow me to see which line(s) were changed and what the changes were. 
+Viewing a diff can allow me to see which line(s) were changed and what the 
+changes were. 
+
 Using that, I can confirm that all changes were as desired.
+
 By saving versions, I can be more confident with making changes.
+
 I will know that I can "undo" the changes if necessary.
+
 Commits should take place for each logical change.
+
 Multiple areas or features shouldn't be committed together.
+
 Each little change might be too frequent.
-Some version control systems allow saving multiple files in one commit because the files are more likely to be interconnected.
+
+Some version control systems allow saving multiple files in one commit because 
+the files are more likely to be interconnected.
+
 git log displays the history of commits
-git diff shows the details of the changes made within each file in a particular commit.
-Since git checkout would allow me to return to a working state, I might be willing to introduce code that might break something: lower risk
+
+git diff shows the details of the changes made within each file in a particular 
+commit.
+
+Since git checkout would allow me to return to a working state, I might be 
+willing to introduce code that might break something: lower risk
+
 I still need more information before I begin using git seriously.

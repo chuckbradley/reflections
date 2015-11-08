@@ -1,20 +1,31 @@
 What happens when you initialize a repository? Why do you need to do it?
-It makes the directory into a repository and begins tracking metadata in the .git directory. It is needed to begin tracking.
+It makes the directory into a repository and begins tracking metadata in the 
+.git directory. It is needed to begin tracking.
 
-How is the staging area different from the working directory and the repository? What value do you think it offers?
-Staging area distinguishes files to be committed from others, it allows gathering multiple files to be part of a single commit.
+How is the staging area different from the working directory and the 
+repository? What value do you think it offers?
+Staging area distinguishes files to be committed from others, it allows 
+gathering multiple files to be part of a single commit.
 
-How can you use the staging area to make sure you have one commit per logical change?
-Make sure that all the staged files are there because of a single logical change.
+How can you use the staging area to make sure you have one commit per logical 
+change?
+Make sure that all the staged files are there because of a single logical 
+change.
 
-What are some situations when branches would be helpful in keeping your history organized? How would branches help?
-Experimenting with new features or alternate solutions while keeping the original version stable.
+What are some situations when branches would be helpful in keeping your history 
+organized? How would branches help?
+Experimenting with new features or alternate solutions while keeping the 
+original version stable.
 
 How do the diagrams help you visualize the branch structure?
 Keep track of which branches contain which commits
 
-What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
-Merge all commits into a single state. Display the fact that the entire commit history is still present.
+What is the result of merging two branches together? Why do we represent it in 
+the diagram the way we do?
+Merge all commits into a single state. Display the fact that the entire commit 
+history is still present.
 
-What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
-Automatic is a convenience if it's obvious, but the manual allows clarification when it's not.
+What are the pros and cons of Git’s automatic merging vs. always doing merges 
+manually?
+Automatic is a convenience if it's obvious, but the manual allows clarification 
+when it's not.

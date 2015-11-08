@@ -1,10 +1,19 @@
-When would you want to use a remote repository rather than keeping all your work local?
+When would you want to use a remote repository rather than keeping all your 
+work local?
 When using multiple devices and/or when multiple users need access.
 
-Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+Why might you want to always pull changes manually rather than having Git 
+automatically stay up-to-date with your remote repository?
 To make sure that updates are known and intentional. 
 
-Describe the differences between forks, clones, and branches. When would you use one instead of another?
-A repository initally conisists of a single branch. Additional branches can be created for alternate, potentially parallel, versions of the repository.
-A clone is a copy of the repository (with git functionality: history, branches, etc.). Example: a remote repository can be cloned from GitHub to a local machine.
-A fork is a GitHub-specific duplicate of a repository that includes a reference to the source. GitHub also includes a reference from the sorce repository to all forks. A fork should be created when the duplicated content is independent from the source after the forking.
+Describe the differences between forks, clones, and branches. When would you 
+use one instead of another?
+A repository initally conisists of a single branch. Additional branches can be 
+created for alternate, potentially parallel, versions of the repository.
+A clone is a copy of the repository (with git functionality: history, branches, 
+etc.). Example: a remote repository can be cloned from GitHub to a local 
+machine.
+A fork is a GitHub-specific duplicate of a repository that includes a reference 
+to the source. GitHub also includes a reference from the sorce repository to 
+all forks. A fork should be created when the duplicated content is independent 
+from the source after the forking.
