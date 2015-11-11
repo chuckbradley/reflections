@@ -17,3 +17,18 @@ A fork is a GitHub-specific duplicate of a repository that includes a reference
 to the source. GitHub also includes a reference from the sorce repository to 
 all forks. A fork should be created when the duplicated content is independent 
 from the source after the forking.
+
+What is the benefit of having a copy of the last known state of the remote 
+stored locally?
+Reference without connection
+
+How would you collaborate without using Git or GitHub? What would be easier, 
+and what would be harder?
+Alternate version controls systems like SVN. 
+
+When would you want to make changes in a separate branch rather than directly 
+in master? What benefits does each approach have?
+When working in parallel with others and needing to integrate (pull-requests)
+or when trying out something that may nor become part of master.
+Working only in master is easier because no conflicts can occur, but doesn't 
+accomodate parallel work or investigative branches.
